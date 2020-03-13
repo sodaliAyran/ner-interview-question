@@ -19,7 +19,7 @@ command:
 
 ```bash
 
-docker build -t ner:0.0.1 .
+$ docker build -t ner:0.0.1 .
 
 ```
 
@@ -27,7 +27,7 @@ And run it by using the command:
 
 ```bash
 
-docker run -p 5000:5000 ner:0.0.1
+$ docker run -p 5000:5000 ner:0.0.1
 
 ```
 
@@ -35,7 +35,7 @@ You can send requests to this service by using the command:
 
 ```bash
 
-curl -i POST -H "Content-Type: application/json" -d '{"text": "are there any good romantic comedies right now?"}' localhost:5000/named-entity-recognition
+$ curl -i POST -H "Content-Type: application/json" -d '{"text": "are there any good romantic comedies right now?"}' localhost:5000/named-entity-recognition
 
 ```
 
@@ -46,7 +46,7 @@ HTTP/1.0 200 OK
 Content-Type: application/json
 Content-Length: 155
 Server: Werkzeug/1.0.0 Python/3.6.10
-Date: Fri, 13 Mar 2020 19:59:38 GMT 
+Date: Fri, 13 Mar 2020 19:59:38 GMT
 
 {"entities":["O","O","O","O","B-GENRE","I-GENRE","B-YEAR","I-YEAR","I-YEAR"],
 "words":["are","there","any","good","romantic","comedies","right","now","?"]}
