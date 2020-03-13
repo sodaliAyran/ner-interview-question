@@ -25,7 +25,7 @@ gibi bulut sağlayıcıları üstünde mi kodlama yapılacaktır yoksa lokal mak
 üstünde mi? Bulut sağlayıcılarının sağladıkları diğer servisler kullanılarak
 daha hızlı bir sonuç alınabilir ancak lokal geliştirme daha az maliyetli
 olacaktır.
-- 3. parti servis sağlayıcıları problemi bünyede bulundurulan ya da yeni
+- Üçüncü parti servis sağlayıcıları problemi bünyede bulundurulan ya da yeni
 kurulacak veri bilimi ekibinden daha hızlı ve daha ucuza çözebilir mi? Pazar
 araştırılmalıdır.
 
@@ -40,7 +40,7 @@ kazınması avantaj sağlayacaktır. Ayrıca rakip firmalara yazılan tweetlerde
 veri kümesini zenginleştirmekte faydalı olur. Twitter kazınması için
 [Tweepy](https://www.tweepy.org/) kullanılabilir. **Tweepy** tweetlerin içindeki
 konum bilgisini de aldığından birçok probleme çözüm olabilir.
-- 3. parti sitelerden veri çekilmesi faydalı olabilir.
+- Üçüncü parti sitelerden veri çekilmesi faydalı olabilir.
 [ŞikayetVar](https://www.sikayetvar.com/) gibi sitelerden etiketli sayılabilecek
 veriler çekilebilir.
 
@@ -72,11 +72,11 @@ kötü, sıkıntı, :( vb. kelimeler geçiyorsa negatif olarak etiketlenebilir. 
 kurallar dikkatli yazılmalıdır. Zira bu yöntem ile veri çöplüğüne yol açmak
 oldukça olasıdır.
 - [AWS SageMaker Ground Truth](https://aws.amazon.com/tr/sagemaker/groundtruth/)
-gibi 3. parti veri etiketleme yöntemleri kullanılabilir.
+gibi Üçüncü parti veri etiketleme yöntemleri kullanılabilir.
 - Daha önce bünyede oluşturulmuş bir yapay zeka modeli ile veriler
 etiketlenebilir. Ardından etiketlenen veri tarafından yeni bir model eğitilirek
 süreç tekrarlanabilir.
-- Yerel 3. parti yapay zeka servis sağlayıcıları kullanılarak veri
+- Yerel Üçüncü parti yapay zeka servis sağlayıcıları kullanılarak veri
 etiketlenebilir ve çoğunluk oylaması yapılarak daha sağlam bir sonuca
 ulaşılabilir.
 - Veri yabancı dile çevrilerek dünya çapındaki yapay zeka servis sağlayıcılarına
