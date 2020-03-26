@@ -1,5 +1,7 @@
 # ner-interview-question
 
+# WARNING! THIS PROJECT FAILED ME IN MY INTERVIEW USE WITH CAUTION!
+
 ## Description
 
 This project is the answer for an interview question.
